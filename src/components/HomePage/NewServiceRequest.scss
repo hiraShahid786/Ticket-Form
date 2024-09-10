@@ -1,0 +1,46 @@
+.background {
+    position: relative;
+    padding: 112px;
+    overflow: hidden;
+}
+
+.background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../../../public/ServiceBack.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
+    filter: blur(5px); /* Adjust the blur radius as needed */
+}
+
+.requestBox {
+    position: relative; /* Ensure this stays above the background */
+    background: #f44336;
+    color: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.text{
+    font-size: 18px; 
+    padding: 10px;
+    font-weight:500;
+}
+
+.newRequest{
+    background-color: white !important;
+    color: red !important;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

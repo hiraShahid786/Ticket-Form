@@ -1,0 +1,23 @@
+// MySummary.scss
+
+$background-color: #fff;
+$border-radius: 8px;
+$padding: 20px;
+$box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+$text-color: #333;
+$header-font-size: 18px;
+
+.summary {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 100%;
+
+    h3 {
+        font-size: 18px;
+        color: $text-color;
+        margin-bottom: 20px;
+    }
+}
